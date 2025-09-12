@@ -1,0 +1,24 @@
+.loginInput {
+    border: none;
+    outline: none;
+    height: 35px;
+    color: #000;
+    padding: 0 10px;
+    width: 100%;
+    /* Ensures the input takes the full width of its container */
+    box-sizing: border-box;
+    /* Ensures padding is included in the total width */
+}
+
+.loginButton {
+    background: rgb(16, 44, 68);
+    border: 1px solid #fff;
+    height: 35px;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .mainimg {
+        display: none;
+    }
+}

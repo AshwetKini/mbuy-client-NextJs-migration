@@ -1,0 +1,23 @@
+.fullcontainer {
+  min-height: 70vh;
+  padding: 10px 0;
+  background: #ffffff;
+}
+
+.container {
+  padding: 0 !important;
+  background: #ffffff;
+}
+
+.all_products{
+  position: absolute;
+  bottom: 15%;
+  left: 5%;
+  backdrop-filter: blur(10px);
+  border: 1px solid #102c44;
+}
+
+.dod_card_bottoM{
+  background-color: #102c44;
+}
+

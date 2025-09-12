@@ -1,0 +1,30 @@
+.all_products {
+  position: absolute;
+  bottom: 4%;
+  left: 2%;
+  backdrop-filter: blur(10px);
+  background: linear-gradient(to right, #007BFF, #002966);
+  /* Gradient background */
+  color: white;
+  /* Font color */
+  padding: 10px;
+  /* Padding */
+  border-radius: 5px;
+  /* Border radius */
+  font-weight: bold;
+  /* Font weight */
+  display: inline-block;
+  /* Display property */
+  padding: 10px 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .all_products {
+    transform: scale(0.8);
+  }
+}
+
+.carouselcontainer {
+  /* height: auto; */
+}

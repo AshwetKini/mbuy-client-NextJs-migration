@@ -1,0 +1,52 @@
+.main-nav1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-link1 ul {
+  display: flex;
+  justify-content: space-evenly; 
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.menu-link1 ul li {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.menu-link1 ul li a {
+  text-transform: capitalize;
+  color: rgb(255 255 255);
+  font-size: 12px;
+  padding: 0 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.icons1 {
+  color: rgb(255 255 255);
+}
+
+.menu-link1 ul li:hover > a,
+.menu-link1 ul li:hover > .icons1 {
+  color: rgba(190, 186, 186, 0.774);
+}
+
+.hamburger-menu1 {
+  display: none;
+}
+
+@media (max-width: 998px) {
+  .categorynavmob {
+    display: none;
+  }
+}

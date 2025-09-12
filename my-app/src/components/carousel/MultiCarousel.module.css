@@ -1,0 +1,39 @@
+.dod_card_bottoM {
+  background-color: #102c44;
+  /* Dark blue background for the card */
+  overflow: hidden;
+  /* Hide overflow */
+  display: flex;
+  /* Enables flexbox layout for the card */
+  flex-direction: column;
+  /* Stacks child elements vertically */
+  height: 70px;
+  /* Fixed height for the card */
+}
+
+.overflowname {
+  display: -webkit-box;
+  /* Uses a box layout for text */
+  -webkit-line-clamp: 2;
+  /* Limits the text to 2 lines */
+  -webkit-box-orient: vertical;
+  /* Stacks text lines vertically */
+  overflow: hidden;
+  /* Hides overflow text */
+  text-overflow: ellipsis;
+  /* Shows ellipsis when text is truncated */
+  padding: 5px 5px;
+  /* Adds padding inside the text container */
+  line-height: 1.5em;
+  /* Controls spacing between lines */
+  max-height: calc(2 * 1.2em + 10px);
+  /* Allows for line height and padding */
+}
+
+.react-multi-carousel-item {
+  width: 250px !important;
+}
+
+.custom-carousel-item {
+  width: 270px !important;
+}

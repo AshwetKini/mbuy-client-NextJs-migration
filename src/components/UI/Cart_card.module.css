@@ -1,0 +1,38 @@
+.cart_card_img{
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.edit_cart_quantity{
+    border: 1px solid #d0d0d0;
+}
+
+.productimgdiv{
+    width: 25%;
+}
+
+.producttitle{
+    width: 65%;
+}
+
+.cart_card_content{
+    width: 20%;
+}
+
+.productimg{
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .cart_card_content{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .productimgdiv{
+        width: 32%;
+    }
+    .producttitle{
+        width: 68%;
+    }
+}

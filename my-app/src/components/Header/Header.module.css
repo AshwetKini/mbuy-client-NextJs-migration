@@ -1,0 +1,132 @@
+.Header_fullcontainer {
+  background: #ffffff;
+}
+
+.header_container {
+  padding: 25px 10px 15px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.headerContact{
+  border-radius: 0 0 20px 20px;
+}
+
+.headerContactText{
+  color: #102c44;
+}
+
+.container_1 {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.container_1 a{
+  width: 40%;
+}
+
+.logo {
+  width: 100%;
+  cursor: pointer;
+}
+
+.container_2 {
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  z-index: 1;
+}
+
+/* .login:hover {
+  color: #F7D10C;
+} */
+
+.login i {
+  font-size: 30px;
+  margin: 0 0 0 3px;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+/* .cart:hover, .loginbutton:hover {
+  color: #F7D10C;
+} */
+
+.cart i {
+  font-size: 30px;
+  margin: 0 0 0 3px;
+}
+
+.maindivdrop{
+  border: 1px solid #102c4419;
+  width: 220px;
+}
+
+.userDropDown{
+  cursor: auto;
+}
+
+.icon{
+  font-size: 28px;
+  margin: 0 10px 0 0;
+}
+
+.iconuser{
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0 10px 0 0;
+}
+
+.iconheart{
+  font-size: 23px;
+  margin: 0 10px 0 0;
+  /* color: #f7d10c; */
+}
+
+.userDropDown ul a{
+  width: 100%;
+  height: 50px;
+  /* font-weight: 500; */
+}
+
+.userDropDown ul a:hover{
+  background: #f3f3f3;
+  color: #102c44;
+}
+
+.logoutbutton{
+  margin-top: 10px;
+  /* width: 150px; */
+}
+
+@media screen and (max-width: 998px) {
+  .searchbarsectionheader{
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 798px) {
+  .container_1 a{
+    width: 45%;
+  }
+}
+  
+@media screen and (max-width: 520px){
+  .container_1 a{
+    width: 65%;
+  }
+}

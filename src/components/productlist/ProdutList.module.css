@@ -1,0 +1,99 @@
+.Fullcontainer {
+  background: #f3f3f3;
+  min-height: 70vh;
+  padding: 10px 0;
+}
+
+.Container {
+  border: 1px solid #d0d0d0;
+  background: #ffffff;
+  padding: 20px 10px;
+}
+
+.headtitle {
+  font-size: 30px;
+  font-weight: 550;
+  color: #102c44;
+  height: fit-content !important;
+}
+
+
+.productCard {
+  border: 1px solid #d0d0d0;
+  width: 100%;
+  /* height: 97%; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.productCard1 {
+  border: 1px solid #d0d0d0;
+  width: 100%;
+  /* height: 97%; */
+  display: flex;
+  padding: 0 15px;
+  /* align-items: flex-start; */
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+
+.productname1 {
+  display: block; /* Fallback for non-webkit */
+  display: -webkit-box;
+  /* margin: 0 auto; */
+  /* font-weight: 500; */
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.imageDiv1 {
+  margin-top: 15px;
+  width: 100%;
+  height: 20vh;
+}
+
+.productCard1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* object-position: center; */
+}
+
+.productCard1 h3 {
+  /* margin: 15px; */
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.imageDiv {
+  margin-top: 15px;
+  width: 90%;
+  height: 20vh;
+}
+
+.productCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.productCard h3 {
+  margin: 15px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .sideTable {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .imageDiv{
+    height: 15vh;
+  }
+}

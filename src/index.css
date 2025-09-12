@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif !important;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #102c44;
+  overflow-x: hidden;
+}
+
+/*remove arrow of input type number*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.react-multiple-carousel__arrow {
+  margin: -20px;
+  background-color: rgba(255, 255, 255, 0.822) !important;
+}
+
+.react-multiple-carousel__arrow::before {
+  color: #102c44 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .product_footer {
+    display: none !important;
+  }
+
+  .react-multiple-carousel__arrow {
+    display: none !important;
+  }
+}
+
+.timeline,
+.timelinecard {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.timeline::-webkit-scrollbar,
+.timelinecard::-webkit-scrollbar {
+  display: none;
+}

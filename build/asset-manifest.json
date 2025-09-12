@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ed1437e1.css",
+    "main.js": "/static/js/main.03d988d3.js",
+    "static/media/about us 2.jpg": "/static/media/about us 2.0685f8c7076263db87b7.jpg",
+    "static/media/Carimg.jpg": "/static/media/Carimg.1f06176f0cb3afab7534.jpg",
+    "static/media/PROFESSIONAL2.jpg": "/static/media/PROFESSIONAL2.2f87c0072ba12fb6cc28.jpg",
+    "static/media/PREFABSIDE.jpg": "/static/media/PREFABSIDE.1e434079d5930afd2c26.jpg",
+    "static/media/PROFESSIONAL1.jpg": "/static/media/PROFESSIONAL1.78f799add8e8acf4fa4a.jpg",
+    "static/media/PREFAB3.png": "/static/media/PREFAB3.878f5bdb156d34076ccb.png",
+    "static/media/PROFESSIONALspace.jpg": "/static/media/PROFESSIONALspace.765c7439f1cdd0a35d71.jpg",
+    "static/media/professionalside.jpg": "/static/media/professionalside.08c91e7f9564fe577abc.jpg",
+    "static/media/serviceside.jpg": "/static/media/serviceside.7d86f44ab75cb6d8fdb3.jpg",
+    "static/media/Careersidebar.jpg": "/static/media/Careersidebar.f0d228c1c834d1cb2418.jpg",
+    "static/media/getaquoteside.jpg": "/static/media/getaquoteside.d8d6b0dd3e1a1f60fa2e.jpg",
+    "static/media/PREFAB1.png": "/static/media/PREFAB1.4a238184915bad539311.png",
+    "static/media/vendor3.png": "/static/media/vendor3.e861ddd08a069cb0aedd.png",
+    "static/media/PREFAB4.png": "/static/media/PREFAB4.54a68e6d6a7891a27204.png",
+    "static/media/vendor5.png": "/static/media/vendor5.6a6650fbc65a2e9c1554.png",
+    "static/media/vendor4.png": "/static/media/vendor4.a3bb249fe4c76d76a862.png",
+    "static/media/vendor1.png": "/static/media/vendor1.0d7bdbcd08d47aa6e11e.png",
+    "static/media/vendor2.png": "/static/media/vendor2.cf8d7a9b687f81450dbb.png",
+    "static/media/PREFAB2.png": "/static/media/PREFAB2.a83656dfa149b2db5656.png",
+    "static/media/loginphoto.jpg": "/static/media/loginphoto.4ebe3d8a400a0cd24e84.jpg",
+    "static/media/logo.png": "/static/media/logo.7904537579ca3971a687.png",
+    "static/media/confirmedorder.svg": "/static/media/confirmedorder.bd43d75d73902cf78a0417a067a77d51.svg",
+    "static/media/failedorder.svg": "/static/media/failedorder.bd95f1302166769eb1c3d6faf2febc01.svg",
+    "static/media/logo2.png": "/static/media/logo2.a9686b9351a48cc7108a.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.ed1437e1.css.map": "/static/css/main.ed1437e1.css.map",
+    "main.03d988d3.js.map": "/static/js/main.03d988d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed1437e1.css",
+    "static/js/main.03d988d3.js"
+  ]
+}

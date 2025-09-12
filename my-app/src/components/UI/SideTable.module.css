@@ -1,0 +1,30 @@
+.side_div {
+  margin-bottom: 10px;
+  border: 1px solid #d0d0d0;
+}
+
+.side_title {
+  border-bottom: 1px solid #d0d0d0;
+  padding: 10px;
+}
+
+.side_title h1 {
+  font-size: 15px;
+  font-weight: 550;
+}
+
+.side_content {
+  padding: 10px 20px;
+  color: #12436d;
+  overflow: hidden;
+}
+
+.side_content p {
+  cursor: pointer;
+  margin: 7px 0;
+  font-size: 15px;
+}
+
+.side_content p:hover {
+  text-decoration: underline;
+}

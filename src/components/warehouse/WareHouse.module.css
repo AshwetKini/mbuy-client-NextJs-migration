@@ -1,0 +1,35 @@
+.warehousestitle {
+  color: #102c44;
+}
+
+.addwarehosuebtn {
+  margin-top: 0 !important;
+}
+
+.dialogpanel{
+  max-width: 1000px;
+  width: 96vw;
+}
+
+.form_addwarehouse{
+    max-width: 1000px;
+    width: 100%;
+}
+
+.ware_input {
+  border-radius: 5px;
+  height: 45px;
+  padding: 0 10px;
+}
+
+.ware_input:focus{
+  outline: 1px solid #102c44;
+}
+
+.submitbtn{
+    margin-top: 0 !important;
+}
+
+.deletewarebtn{
+  margin-top: 0 !important;
+}

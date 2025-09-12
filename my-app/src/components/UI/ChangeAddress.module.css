@@ -1,0 +1,92 @@
+.changeaddress_window {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 1000;
+}
+
+.active {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.changeaddress {
+  transform: translateX(100%);
+  background: white;
+  height: 100vh;
+  width: 400px;
+  overflow-y: auto;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: -4px 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.changeaddress.activee {
+  transform: translateX(0);
+}
+
+/* Custom scrollbar */
+.changeaddress::-webkit-scrollbar {
+  width: 6px;
+}
+
+.changeaddress::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.changeaddress::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+
+.changeaddress::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+
+/* Address card hover effects */
+.address_card {
+  transition: all 0.2s ease;
+}
+
+.address_card:hover {
+  background-color: #f8fafc;
+}
+
+/* Recommended products grid */
+.recommended_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+@media (max-width: 480px) {
+  .changeaddress {
+    width: 100%;
+  }
+  
+  .recommended_grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Animation for address selection */
+@keyframes selectPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.selected_address {
+  animation: selectPulse 0.3s ease-in-out;
+}

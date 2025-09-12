@@ -1,0 +1,63 @@
+.fullcontainer {
+  background: #f3f3f3;
+  min-height: 70vh;
+  padding: 10px 0;
+}
+
+.container {
+  border: 1px solid #d0d0d0;
+  background: #ffffff;
+  padding: 20px 10px;
+}
+
+.form {
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.inputfield {
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  height: 40px;
+  padding: 0 10px;
+}
+
+.inputfieldtextarea {
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  resize: none
+}
+
+.button {
+  margin-top: 0 !important;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttonn {
+  background: #102c4473;
+  margin-top: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .button {
+    display: flex;
+    /* Set flexbox to handle centering */
+    justify-content: center;
+    /* Center the button horizontally */
+    width: 100%;
+    /* Ensure the button takes full width in mobile view */
+    margin: 0 auto;
+    /* Center the button horizontally */
+  }
+
+  /* If the parent container has padding or alignment issues, center it too */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

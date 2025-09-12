@@ -1,0 +1,45 @@
+.fullcontainer {
+  background: #f3f3f3;
+  min-height: 70vh;
+  padding: 10px 0;
+}
+
+.container {
+  border: 1px solid #d0d0d0;
+  background: #ffffff;
+  padding: 20px 10px;
+}
+
+.sidecontainer {
+  border-bottom: 1px solid #d0d0d0;
+  padding: 10px;
+}
+
+.allprofessionalscard{
+    max-width: 350px;
+    width: 100%;
+    /* height: auto; */
+}
+
+.card_img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact_btn{
+    background: rgba(0, 0, 34, 0.729);
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .about_side {
+    display: none;
+  }
+  .about_main {
+    margin: 0;
+  }
+}

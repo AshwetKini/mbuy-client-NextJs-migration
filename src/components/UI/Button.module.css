@@ -1,0 +1,11 @@
+.primary_btn{
+    /* background: #102c44ca; */
+    color: #fff;
+    transition: 0.5s ease;
+    border-radius: 5px;
+    background: #102c44;
+}
+
+.primary_btn:hover{
+    color: #F7D10C;
+}

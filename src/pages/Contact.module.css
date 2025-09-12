@@ -1,0 +1,57 @@
+.fullcontainer {
+  background: #f3f3f3;
+  min-height: 70vh;
+  padding: 10px 0;
+}
+
+.container {
+  border: 1px solid #d0d0d0;
+  background: #ffffff;
+  padding: 20px 10px;
+}
+
+.contact_main {
+  margin: 0 0 0 10px;
+}
+
+.contact_main h1 {
+  font-size: 30px;
+  font-weight: 550;
+  color: #102c44;
+}
+
+.hero iframe {
+  height: 65vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contact_from{
+    margin: 10px 0;
+    border: 1px solid #d0d0d0;
+}
+
+.contact_from_title{
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.contact_input{
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  height: 45px;
+  padding: 0 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .contact_side {
+    display: none;
+  }
+  .contact_main {
+    margin: 0;
+  }
+
+  .hero img {
+    height: 40vh;
+  }
+}

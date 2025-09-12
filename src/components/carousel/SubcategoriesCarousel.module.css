@@ -1,0 +1,43 @@
+.dod_card_bottoM {
+  background-color: #102c44;
+  /* Dark blue background for the card */
+  overflow-x: hidden;
+  /* Hides any horizontal overflow */
+  display: flex;
+  /* Enables flexbox layout for the card */
+  flex-direction: column;
+  /* Stacks child elements vertically */
+  height: 70px;
+  /* Fixed height for the card */
+  justify-content: center;
+  /* Centers content vertically */
+  align-items: center;
+  /* Centers content horizontally */
+}
+
+.overflowname {
+  display: -webkit-box;
+  /* Uses a box layout for text */
+  -webkit-line-clamp: 2;
+  /* Limits the text to 2 lines */
+  -webkit-box-orient: vertical;
+  /* Stacks text lines vertically */
+  overflow: hidden;
+  /* Hides overflow text */
+  text-overflow: ellipsis;
+  /* Shows ellipsis when text is truncated */
+  padding: 5px 10px;
+  /* Adds padding inside the text container */
+  height: 48px;
+  /* Fixed height for the text area */
+  line-height: 1.2em;
+  /* Controls spacing between lines of text */
+  max-height: 48px;
+  /* Ensures text does not exceed 48px height */
+  display: flex;
+  /* Enables flexbox for the text container */
+  justify-content: center;
+  /* Centers text horizontally */
+  align-items: center;
+  /* Centers text vertically */
+}

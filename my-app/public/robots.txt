@@ -1,0 +1,48 @@
+User-agent: *
+Allow: /
+# Block admin and sensitive areas
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /login
+Disallow: /signup
+Disallow: /profile
+Disallow: /cart
+Disallow: /checkout
+Disallow: /purchase
+Disallow: /orders
+Disallow: /wishlist
+Disallow: /manageaddress
+
+# Block search and filter URLs with parameters
+Disallow: /*?*
+# Allow specific important pages
+Allow: /login$
+Allow: /signup$
+# Sitemap locations
+Sitemap: https://materialbuy.com/sitemap.xml
+# Crawl-delay for different bots
+User-agent: Googlebot
+Crawl-delay: 1
+User-agent: Bingbot
+Crawl-delay: 2
+User-agent: Slurp
+Crawl-delay: 2
+# Block problematic or aggressive crawlers
+User-agent: AhrefsBot
+Disallow: /
+User-agent: MJ12bot
+Disallow: /
+User-agent: DotBot
+Disallow: /
+# Allow social media crawlers for better sharing
+User-agent: facebookexternalhit
+Allow: /
+User-agent: Twitterbot
+Allow: /
+User-agent: LinkedInBot
+Allow: /
+User-agent: WhatsApp
+Allow: /
+User-agent: TelegramBot
+Allow: /
